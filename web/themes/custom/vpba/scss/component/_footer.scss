@@ -11,7 +11,7 @@ footer.container {
     line-height: 1;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     @media #{$tablet} {
@@ -21,7 +21,7 @@ footer.container {
       width: 17.3%;
       margin-bottom: 20px;
     }
-    section:first-child {
+    #block-contacts-info {
       line-height: 0.6;
       width: 25%;
     }
@@ -46,6 +46,7 @@ footer.container {
     }
     #block-social-sharing-block {
       text-align: justify;
+      order: 7;
       .social-media-sharing {
         ul {
           display: flex;
@@ -62,6 +63,7 @@ footer.container {
     }
     #block-copyright {
       width: 70%;
+      order: 8;
       flex: 1 0 0 100%;
       margin-bottom: 0;
       border-top: 1px solid $gainsboro;
@@ -70,23 +72,32 @@ footer.container {
         margin-top: 20px;
       }
     }
+
+    #block-academy-menu-item {
+      order: 1;
+    }
+    #block-entrant-item-menu {
+      order: 2;
+    }
+    #block-multimedia-item-menu {
+      order: 5;
+    }
+    #block-for-the-student {
+      order: 3;
+    }
+    #block-naukapunktmenyu {
+      order: 4;
+    }
+    #block-contacts-info {
+      order: 6;
+    }
     @media only screen and (min-width: $screen-xs) and (max-width: $screen-sm-min) {
       section {
         width: 33%;
         text-align: center;
       }
-      #block-academy-menu-item {
-        order: 1;
-      }
-      #block-entrant-item-menu {
-        order: 2;
-      }
-      #block-multimedia-item-menu {
-        order: 3;
-      }
       #block-contacts-info,
       #block-social-sharing-block {
-        order: 4;
         border-top: 1px solid $gainsboro;
         width: 50%;
         .field--name-body {
@@ -94,7 +105,6 @@ footer.container {
         }
       }
       #block-social-sharing-block {
-        order: 5;
         .field--name-body {
           width: 70%;
         }
@@ -103,14 +113,16 @@ footer.container {
         }
       }
       #block-copyright {
-        order: 6;
         width: 100%;
       }
     }
     @media #{$xm-mobile} {
       #block-academy-menu-item,
       #block-entrant-item-menu,
-      #block-multimedia-item-menu {
+      #block-multimedia-item-menu,
+      #block-for-the-student,
+      #block-naukapunktmenyu
+      {
         display: none;
       }
       #block-contacts-info,

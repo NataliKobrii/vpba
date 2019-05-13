@@ -11062,9 +11062,9 @@ footer.container .region-footer {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -11087,7 +11087,7 @@ footer.container .region-footer section {
 }
 
 /* line 24, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
-footer.container .region-footer section:first-child {
+footer.container .region-footer #block-contacts-info {
   line-height: 0.6;
   width: 25%;
 }
@@ -11126,9 +11126,12 @@ footer.container .region-footer .dropdown-item-menu li {
 /* line 47, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
 footer.container .region-footer #block-social-sharing-block {
   text-align: justify;
+  -webkit-order: 7;
+      -ms-flex-order: 7;
+          order: 7;
 }
 
-/* line 50, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+/* line 51, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
 footer.container .region-footer #block-social-sharing-block .social-media-sharing ul {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11139,19 +11142,22 @@ footer.container .region-footer #block-social-sharing-block .social-media-sharin
   padding-left: 0;
 }
 
-/* line 54, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+/* line 55, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
 footer.container .region-footer #block-social-sharing-block .social-media-sharing ul li {
   list-style-type: none;
 }
 
-/* line 57, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+/* line 58, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
 footer.container .region-footer #block-social-sharing-block .social-media-sharing ul img {
   height: 30px;
 }
 
-/* line 63, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+/* line 64, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
 footer.container .region-footer #block-copyright {
   width: 70%;
+  -webkit-order: 8;
+      -ms-flex-order: 8;
+          order: 8;
   -webkit-flex: 1 0 0 100%;
       -ms-flex: 1 0 0 100%;
           flex: 1 0 0 100%;
@@ -11159,115 +11165,129 @@ footer.container .region-footer #block-copyright {
   border-top: 1px solid #dadada;
 }
 
-/* line 68, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+/* line 70, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
 footer.container .region-footer #block-copyright p {
   text-align: center;
   margin-top: 20px;
 }
 
+/* line 76, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+footer.container .region-footer #block-academy-menu-item {
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+/* line 79, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+footer.container .region-footer #block-entrant-item-menu {
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+/* line 82, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+footer.container .region-footer #block-multimedia-item-menu {
+  -webkit-order: 5;
+      -ms-flex-order: 5;
+          order: 5;
+}
+
+/* line 85, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+footer.container .region-footer #block-for-the-student {
+  -webkit-order: 3;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+/* line 88, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+footer.container .region-footer #block-naukapunktmenyu {
+  -webkit-order: 4;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+/* line 91, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+footer.container .region-footer #block-contacts-info {
+  -webkit-order: 6;
+      -ms-flex-order: 6;
+          order: 6;
+}
+
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 74, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 95, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer section {
     width: 33%;
     text-align: center;
   }
-  /* line 78, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
-  footer.container .region-footer #block-academy-menu-item {
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  /* line 81, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
-  footer.container .region-footer #block-entrant-item-menu {
-    -webkit-order: 2;
-        -ms-flex-order: 2;
-            order: 2;
-  }
-  /* line 84, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
-  footer.container .region-footer #block-multimedia-item-menu {
-    -webkit-order: 3;
-        -ms-flex-order: 3;
-            order: 3;
-  }
-  /* line 87, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 99, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-contacts-info,
   footer.container .region-footer #block-social-sharing-block {
-    -webkit-order: 4;
-        -ms-flex-order: 4;
-            order: 4;
     border-top: 1px solid #dadada;
     width: 50%;
   }
-  /* line 92, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 103, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-contacts-info .field--name-body,
   footer.container .region-footer #block-social-sharing-block .field--name-body {
     margin: 20px 0 20px 0;
   }
-  /* line 96, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
-  footer.container .region-footer #block-social-sharing-block {
-    -webkit-order: 5;
-        -ms-flex-order: 5;
-            order: 5;
-  }
-  /* line 98, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 108, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-social-sharing-block .field--name-body {
     width: 70%;
   }
-  /* line 101, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 111, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-social-sharing-block .share-buttons {
     text-align: center;
   }
-  /* line 105, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 115, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-copyright {
-    -webkit-order: 6;
-        -ms-flex-order: 6;
-            order: 6;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  /* line 111, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 120, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-academy-menu-item,
   footer.container .region-footer #block-entrant-item-menu,
-  footer.container .region-footer #block-multimedia-item-menu {
+  footer.container .region-footer #block-multimedia-item-menu,
+  footer.container .region-footer #block-for-the-student,
+  footer.container .region-footer #block-naukapunktmenyu {
     display: none;
   }
-  /* line 116, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 128, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-contacts-info,
   footer.container .region-footer #block-social-sharing-block {
     width: 100%;
     border: none;
     margin-bottom: 20px;
   }
-  /* line 123, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 135, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-contacts-info .field--name-body {
     text-align: center;
   }
-  /* line 127, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 139, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-social-sharing-block {
     border-top: 1px solid #dadada;
   }
-  /* line 129, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 141, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-social-sharing-block .field--name-body {
     width: 75%;
     margin: 0 auto;
     padding-top: 20px;
   }
-  /* line 134, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 146, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container .region-footer #block-social-sharing-block .share-buttons {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 480px) {
-  /* line 141, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+  /* line 153, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
   footer.container footer.container {
     padding: 0 !important;
   }
 }
 
-/* line 148, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
+/* line 160, /var/www/html/vpba/web/themes/custom/vpba/scss/component/_footer.scss */
 body:not(.path-frontpage) footer.container {
   border-top: 1px solid #dadada;
 }
