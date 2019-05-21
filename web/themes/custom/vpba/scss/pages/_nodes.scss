@@ -1,7 +1,9 @@
 /**
  * Nodes styling.
  */
-body:not(.front-page), body.path-bloggers, body.path-user {
+body:not(.front-page),
+body.path-bloggers,
+body.path-user {
   background-color: $backgraund_grey;
   #navbar {
     background-color: $header_color;
@@ -709,5 +711,34 @@ body[class*='page-error-'] {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+  }
+}
+
+.field--name-field-vikladachi-kafedri {
+  margin-bottom: 40px;
+  .field--name-field-zobrazhennya-vikladacha {
+    float: left;
+    margin-right: 20px;
+  }
+  .field--name-description {
+    font-size: 16px;
+  }
+  a {
+    &:hover {
+      font-weight: 300 !important;
+    }
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.path-pravila-vstupu {
+  .views-field-body {
+    text-align: justify;
+  }
+  .views-more-link {
+    float: right;
+    font-size: 20px;
   }
 }

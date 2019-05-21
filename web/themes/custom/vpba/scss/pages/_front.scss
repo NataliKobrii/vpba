@@ -865,38 +865,3 @@ body.navbar-is-fixed-top {
     }
   }
 }
-
-
-body:not(.page-node-type-page) {
-  .dialog-off-canvas-main-canvas {
-    .js-quickedit-main-content {
-      .region-content {
-        .content {
-          .quickedit-field {
-            .field--item {
-              margin-top: 100px;
-              margin-left: 3vw;
-              border-radius: 200px;
-              height: 220px;
-              width: 220px;
-              border: 1px solid $darkgrey;
-              float: left;
-              img {
-                margin: 10px auto;
-                border-radius: 200px;
-                height: 200px;
-                width: 200px;
-                border: 1px solid $darkgrey;
-              }
-            }
-            .quickedit-field {
-              position: absolute;
-              right: 0;
-              width: 70%;
-            }
-          }
-        }
-      }
-    }
-  }
-}
